@@ -83,9 +83,6 @@
             // 追加: スクロールのタップ時間を設定 (20ms)
             tap-ms = <20>;
         };
-
-// 設定したいレイヤー
-sensor-bindings = <&scroll_up_down>;
     };
 
     keymap {
@@ -99,7 +96,9 @@ sensor-bindings = <&scroll_up_down>;
 &mt LSHFT LEFT_PARENTHESIS  &mt LEFT_GUI RIGHT_PARENTHESIS  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_5  &kp MINUS  &kp BSPC              &kp ENTER                  &kp SPACE                                          &kp LANG1
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            
+// 設定したいレイヤー
+sensor-bindings = <&scroll_up_down>;
         };
 
         number {
