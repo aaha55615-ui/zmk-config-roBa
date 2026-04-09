@@ -95,9 +95,6 @@
 &mt LEFT_SHIFT Z            &kp X                           &kp C         &kp V                        &kp B      &kp COMMA             &kp PERIOD                 &kp N      &kp M  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LANG2
 &mt LSHFT LEFT_PARENTHESIS  &mt LEFT_GUI RIGHT_PARENTHESIS  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_5  &kp MINUS  &kp BSPC              &kp ENTER                  &kp SPACE                                          &kp LANG1
             >;
-
-            
-// 設定したいレイヤー
 sensor-bindings = <&scroll_up_down>;
         };
 
