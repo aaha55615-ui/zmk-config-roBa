@@ -104,10 +104,10 @@
 
         number {
             bindings = <
-&trans          &kp UP_ARROW    &kp AT_SIGN       &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                    &kp SLASH  &kp N1  &kp N2  &kp N3  &kp PERCENT
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp SEMICOLON         &kp COLON              &trans             &kp MINUS  &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp EQUAL
-&trans          &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LCTRL          &kp PLUS   &kp N0     &kp N7  &kp N8  &kp N9  &kp MINUS
-&kp LEFT_SHIFT  &kp LEFT_GUI    &kp AT_SIGN       &kp QUESTION          &kp MINUS              &kp BACKSPACE      &kp ENTER  &kp SPACE                          &kp PLUS
+&trans          &kp UP_ARROW    &kp AT_SIGN       &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                    &kp SLASH     &kp N1  &kp N2  &kp N3  &to 7
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp SEMICOLON         &kp COLON              &trans             &kp EQUAL  &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp EQUAL
+&trans          &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LCTRL          &kp PLUS   &kp N0        &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp LEFT_SHIFT  &kp LEFT_GUI    &kp AT_SIGN       &kp QUESTION          &kp MINUS              &kp BACKSPACE      &kp ENTER  &kp SPACE                             &kp PERCENT
             >;
         };
 
@@ -162,7 +162,7 @@
 
         layer_7 {
             bindings = <
-&kp Q   &kp W   &kp E    &kp R    &kp T                                   &kp Y   &kp U   &kp I      &kp O      &kp P
+&kp Q   &kp W   &kp E    &kp R    &kp T                                   &kp Y   &kp U   &kp I      &kp O      &to 7
 &kp A   &kp S   &kp D    &kp F    &kp G           &kp H          &kp DOT  &kp N   &kp M   &mkp LCLK  &mkp RCLK  &kp M
 &kp Z   &kp X   &kp C    &kp V    &kp B           &kp M          &kp N1   &kp N1  &kp N2  &kp N3     &kp N4     &kp N5
 &trans  &trans  &kp TAB  &kp ESC  &kp LEFT_SHIFT  &kp SPACE      &trans   &trans                                &trans
