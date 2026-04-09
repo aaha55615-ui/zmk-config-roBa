@@ -8,7 +8,7 @@
     quick-tap-ms = <0>;
 };
 // #includeのあとのあたりにスクロール量を変更
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 //  behaviors に追加
 // 新しいスクロール動作の追加
