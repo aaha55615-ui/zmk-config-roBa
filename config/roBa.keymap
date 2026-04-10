@@ -113,10 +113,10 @@
 
         symbol {
             bindings = <
-&kp MINUS                   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PLUS                                                            &kp CARET         &kp AMPERSAND      &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp DOLLAR       &kp PERCENT   &kp LCTRL             &kp ASTERISK           &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &msc SCRL_UP  &msc SCRL_DOWN        &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MB1      &mkp MB2              &kp BACKSLASH
-&trans                      &trans           &trans        &trans                &trans                 &trans                       &trans          &trans                                                                   &kp PIPE
+&kp MINUS                   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PLUS                                                            &kp CARET         &kp AMPERSAND      &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp DOLLAR       &kp PERCENT   &kp LCTRL             &kp ASTERISK           &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp PG_UP  &kp PAGE_DOWN         &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MB1   &mkp MB2              &kp BACKSLASH
+&trans                      &trans           &trans        &trans                &trans                 &trans                       &trans          &trans                                                                &kp PIPE
             >;
         };
 
