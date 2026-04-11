@@ -19,6 +19,9 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        // scale-multiplier = <2>;
+        // scale-divisor = <1>;
     };
 };
 
