@@ -164,10 +164,10 @@
 
         layer_7 {
             bindings = <
-&kp Q   &kp W         &kp E    &kp R             &kp T                                         &kp Y  &kp U     &kp I      &kp O      &to 0
-&kp G   &kp S         &kp R    &kp D             &kp F           &kp H              &kp DOT    &kp H  &kp M     &mkp LCLK  &mkp RCLK  &kp M
-&kp Z   &kp X         &kp Y    &kp V             &kp B           &kp TAB            &kp C      &kp N  &mkp MB3  &mkp MB1   &mkp MB2   &lt_to_layer_0 5 A
-&trans  &kp LEFT_ALT  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp BACKSPACE      &kp ENTER  &kp A                                  &trans
+&kp I      &kp W         &kp E    &kp R             &kp T                                               &kp Y  &kp U     &kp I      &kp O      &to 0
+&kp G      &kp S         &kp R    &kp D             &kp F           &kp H              &kp LEFT_ARROW   &kp H  &kp M     &mkp LCLK  &mkp RCLK  &kp M
+&kp Z      &kp X         &kp Y    &kp V             &kp B           &kp C              &kp RIGHT_ARROW  &kp N  &mkp MB3  &mkp MB1   &mkp MB2   &lt_to_layer_0 5 A
+&kp LS(A)  &kp LEFT_ALT  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp BACKSPACE      &kp ENTER        &kp A                                  &trans
             >;
         };
     };
