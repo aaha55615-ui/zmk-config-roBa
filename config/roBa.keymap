@@ -115,10 +115,10 @@
 
         symbol {
             bindings = <
-&kp MINUS                   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PLUS                                                                &kp CARET            &kp AMPERSAND      &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp DOLLAR       &kp PERCENT   &kp LCTRL             &kp ASTERISK           &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE      &kp EXCLAMATION      &kp AT_SIGN        &msc SCRL_UP  &msc SCRL_DOWN        &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                    &trans              &kp LEFT_BRACKET     &kp RIGHT_BRACKET  &mkp MB1      &mkp MB2              &kp BACKSLASH
-&trans                      &trans           &trans        &trans                &trans                 &gresc                       &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                                                         &kp PIPE
+&kp MINUS                   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PLUS                                                                    &kp CARET            &kp AMPERSAND      &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp DOLLAR       &kp PERCENT   &kp LCTRL             &kp ASTERISK           &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE          &kp EXCLAMATION      &kp AT_SIGN        &msc SCRL_UP  &msc SCRL_DOWN        &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                    &trans                  &kp LEFT_BRACKET     &kp RIGHT_BRACKET  &mkp MB1      &mkp MB2              &kp BACKSLASH
+&trans                      &trans           &trans        &trans                &trans                 &gresc                       &kp LC(LS(LEFT_ARROW))  &kp LC(RIGHT_ARROW)                                                         &kp PIPE
             >;
         };
 
@@ -144,10 +144,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &trans               &trans  &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans               &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans               &trans  &mkp MB1        &mkp MB2         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)                                           &trans
+&trans  &trans  &trans  &trans  &trans                                      &trans                   &trans  &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                  &trans                   &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                  &trans                   &trans  &mkp MB1        &mkp MB2         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
