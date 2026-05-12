@@ -164,10 +164,37 @@
 
         layer_7 {
             bindings = <
-&kp I      &kp W         &kp E    &kp R             &kp T                                               &kp Y  &kp U     &kp I      &kp O      &to 0
-&kp G      &kp S         &kp R    &kp D             &kp F           &kp H              &kp LEFT_ARROW   &kp H  &kp M     &mkp LCLK  &mkp RCLK  &kp M
-&kp Z      &kp X         &kp Y    &kp V             &kp B           &kp C              &kp RIGHT_ARROW  &kp N  &mkp MB3  &mkp MB1   &mkp MB2   &lt_to_layer_0 5 A
-&kp LS(A)  &kp LEFT_ALT  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp BACKSPACE      &kp ENTER        &kp A                                  &trans
+&kp Q      &kp W         &kp E    &kp R             &kp T                                              &kp Y  &kp U  &kp I     &kp O     &kp P
+&kp A      &kp S         &kp D    &kp F             &kp G           &kp H              &kp LANGUAGE_2  &kp H  &kp J  &kp K     &kp L     &kp LBKT
+&kp Z      &kp X         &kp C    &kp V             &kp B           &kp COMMA          &kp DOT         &kp N  &kp M  &mkp MB1  &mkp MB2  &lt_to_layer_0 5 A
+&kp LS(A)  &kp LEFT_ALT  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp BACKSPACE      &kp ENTER       &kp A                             &kp LANGUAGE_1
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
