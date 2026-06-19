@@ -144,7 +144,7 @@
 
         SCROLL {
             bindings = <
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp UNDERSCORE                                              &trans                   &trans  &trans          &trans           &kp LS(F)
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp UNDERSCORE                                              &trans                   &trans  &trans          &kp LS(F)        &trans
 &trans  &trans            &trans             &trans         &trans          &trans              &trans                  &trans                   &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans            &trans             &trans         &trans          &trans              &trans                  &trans                   &trans  &mkp MB1        &mkp MB2         &trans
 &trans  &trans            &trans             &trans         &kp LANGUAGE_2  &kp LANGUAGE_1      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))                                           &trans
